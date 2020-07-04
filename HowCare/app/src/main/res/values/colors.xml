@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#FFFFFF</color>
+  <color name="colorPrimaryDark">#FFFFFF</color>
+  <color name="colorAccent">#FF7972</color>
+
+  <color name="melon">#ff8a5c</color>
+  <color name="apricot">#ffc66b</color>
+  <color name="white">#ffffff</color>
+  <color name="warm_grey_51">#82727272</color>
+  <color name="greyish_brown">#4b4b4b</color>
+  <color name="peachy_pink">#ff8d8d</color>
+  <color name="light_salmon">#FFB091</color>
+  <color name="brownish_grey">#5E5E5E</color>
+  <color name="warm_grey">#787878</color>
+  <color name="white_two">#dddddd</color>
+  <color name="grapefruit">#ff635b</color>
+  <color name="warm_grey_two">#727272</color>
+  <color name="apricot_two">#ffbd76</color>
+  <color name="light_peach">#ffcea7</color>
+  <color name="apricot_three">#ffb273</color>
+  <color name="pale_peach">#ffefb0</color>
+  <color name="yellowish_orange">#ffa412</color>
+  <color name="seafoam_blue">#6dd5c5</color>
+  <color name="greeny_blue">#3fbca9</color>
+  <color name="seafoam_blue_two">#6ed2c3</color>
+  <color name="soft_green">#69c79a</color>
+  <color name="light_teal">#97e6da</color>
+  <color name="light_teal_two">#83e1b4</color>
+  <color name="apricot_four">#ffa962</color>
+  <color name="pastel_orange">#ff9d4c</color>
+  <color name="light_mustard">#ffc154</color>
+  <color name="white_three">#f9f9f9</color>
+  <color name="greyish_brown_two">#595959</color>
+  <color name="greyish_brown_three">#4c4c4c</color>
+  <color name="brown_grey">#9A9A9A</color>
+  <color name="brownish_grey_two">#636363</color>
+  <color name="black">#010101</color>
+
+</resources>

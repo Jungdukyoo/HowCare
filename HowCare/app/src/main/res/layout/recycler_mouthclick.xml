@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+  <ImageView
+    android:id="@+id/imageView12"
+    android:layout_width="357dp"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/image029"/>
+  <ImageView
+    android:id="@+id/mouth_one"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:layout_marginTop="114dp"
+    android:layout_marginLeft="2dp"
+    android:padding="3dp"
+    app:layout_constraintEnd_toEndOf="@+id/imageView12"
+    app:layout_constraintStart_toStartOf="@+id/imageView12"
+    app:layout_constraintTop_toTopOf="@+id/imageView12"
+    app:srcCompat="@drawable/mouthbtn_r1"/>
+  <ImageView
+    android:id="@+id/mouth_two"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:layout_marginTop="147dp"
+    android:layout_marginLeft="126dp"
+    android:padding="3dp"
+    app:layout_constraintStart_toStartOf="@+id/imageView12"
+    app:layout_constraintTop_toTopOf="@+id/imageView12"
+    app:srcCompat="@drawable/mouthbtn_y2"/>
+
+  <ImageView
+    android:id="@+id/mouth_three"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:layout_marginTop="182dp"
+    android:layout_marginLeft="150dp"
+    android:padding="3dp"
+    app:layout_constraintStart_toStartOf="@+id/imageView12"
+    app:layout_constraintTop_toTopOf="@+id/imageView12"
+    app:srcCompat="@drawable/mouthbtn_y3"/>
+
+  <ImageView
+    android:id="@+id/mouth_four"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:layout_marginTop="68dp"
+    android:layout_marginLeft="189dp"
+    android:padding="3dp"
+    app:layout_constraintStart_toStartOf="@+id/imageView12"
+    app:layout_constraintTop_toTopOf="@+id/imageView12"
+    app:srcCompat="@drawable/mouthbtn_y4"/>
+
+  <ImageView
+    android:id="@+id/mouth_five"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:layout_marginTop="113dp"
+    android:layout_marginLeft="215dp"
+    android:padding="3dp"
+    app:layout_constraintStart_toStartOf="@+id/imageView12"
+    app:layout_constraintTop_toTopOf="@+id/imageView12"
+    app:srcCompat="@drawable/mouthbtn_y5"/>
+
+  <ImageView
+    android:id="@+id/mouth_six"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:layout_marginTop="178dp"
+    android:layout_marginLeft="222dp"
+    android:padding="3dp"
+    app:layout_constraintStart_toStartOf="@+id/imageView12"
+    app:layout_constraintTop_toTopOf="@+id/imageView12"
+    app:srcCompat="@drawable/mouthbtn_y6"/>
+  <TextView
+    android:id="@+id/mouth_text"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="42dp"
+    android:layout_marginLeft="36dp"
+    android:layout_marginRight="36dp"
+    android:fontFamily="@font/notosanscjkkr_m"
+    android:includeFontPadding="false"
+    android:maxLines="2"
+    android:text="구형브러시나 스펀지 브러시로 찌꺼기제거"
+    android:textColor="@color/greyish_brown"
+    android:textSize="17sp"
+    app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+    app:layout_constraintEnd_toEndOf="@+id/imageView12"
+    app:layout_constraintStart_toStartOf="@+id/imageView12"/>
+  <TextView
+    android:id="@+id/mouth_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginStart="36dp"
+    android:fontFamily="@font/notosanscjkkr_m"
+    android:includeFontPadding="false"
+    android:text="① 입천장"
+    android:textColor="@color/greyish_brown"
+    android:textSize="17sp"
+    app:layout_constraintBottom_toTopOf="@+id/mouth_text"
+    app:layout_constraintStart_toStartOf="@+id/imageView12"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

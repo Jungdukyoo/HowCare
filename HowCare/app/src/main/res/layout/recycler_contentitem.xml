@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/contentitem_cl"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+  <TextView
+    android:id="@+id/contentitem_emptyview"
+    android:layout_width="0dp"
+    android:layout_height="24dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+  <ImageView
+    android:id="@+id/contentitem_square"
+    android:layout_width="16dp"
+    android:layout_height="16dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginStart="21dp"
+    android:src="@mipmap/o_s1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/contentitem_titletext"/>
+  <TextView
+    android:id="@+id/contentitem_titletext"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginStart="13.3dp"
+    android:layout_marginEnd="20dp"
+    android:fontFamily="@font/batang_pro_m"
+    android:includeFontPadding="false"
+    android:text="배설확인"
+    android:textColor="#000000"
+    android:textSize="17sp"
+    app:layout_constraintBottom_toTopOf="@+id/contentitem_text"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/contentitem_square"
+    app:layout_constraintTop_toBottomOf="@+id/contentitem_emptyview"/>
+  <TextView
+    android:id="@+id/contentitem_text"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="7dp"
+    android:fontFamily="@font/batang_pro_l"
+    android:includeFontPadding="false"
+    android:text="식사 중에 요의나 변의로 인해 식욕에 방해되지 않도록 미리 배설을 유도합니다."
+    android:textColor="#000000"
+    android:textSize="17sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/contentitem_titletext"
+    app:layout_constraintStart_toStartOf="@+id/contentitem_titletext"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

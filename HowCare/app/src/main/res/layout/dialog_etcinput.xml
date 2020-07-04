@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:padding="30dp"
+  android:background="@color/white"
+  android:orientation="vertical">
+
+  <TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="비고(질문)를 입력하십시오."
+    android:textColor="@color/brownish_grey"/>
+  <EditText
+    android:id="@+id/input"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:hint="내용을 입력하세요."
+    android:textColor="@color/black"/>
+</LinearLayout>

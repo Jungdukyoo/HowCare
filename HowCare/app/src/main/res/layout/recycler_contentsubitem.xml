@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:paddingBottom="3dp">
+
+  <ImageView
+    android:id="@+id/contentnum_dot_icon"
+    android:layout_width="6dp"
+    android:layout_height="6dp"
+    android:layout_marginTop="11dp"
+    android:layout_marginStart="51dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/contentnum_title"
+    app:srcCompat="@mipmap/o_dot"/>
+  <TextView
+    android:id="@+id/contentnum_title"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="30dp"
+    android:fontFamily="@font/batang_pro_l"
+    android:text="치매 노인은 상차림의 작은 변화에도  당황할 수 있으니 가급적 매일 똑같이 세팅하는 것이 좋습니다. "
+    android:textColor="@color/greyish_brown"
+    android:textSize="17sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/contentnum_dot_icon"
+    app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

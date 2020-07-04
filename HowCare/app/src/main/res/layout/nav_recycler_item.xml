@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:id="@+id/nav_recycler_cl"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+  <TextView
+    android:id="@+id/nav_recycler_item_top_margin"
+    android:layout_width="match_parent"
+    android:layout_height="8dp"
+    android:text=""
+    android:visibility="gone"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+  <LinearLayout
+    android:layout_width="268dp"
+    android:layout_height="27dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    app:layout_constraintBottom_toTopOf="@id/nav_recycler_item_bottom_margin"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/nav_recycler_item_top_margin">
+
+
+    <TextView
+      android:id="@+id/nav_recycler_itemtitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:layout_marginLeft="24dp"
+      android:fontFamily="@font/notosanscjkkr_m"
+      android:includeFontPadding="false"
+      android:singleLine="true"
+      android:text="3. 식사 전 준비사항"
+      android:textColor="#8b8b8b"
+      android:textSize="13sp"/>
+    <ImageView
+      android:id="@+id/nav_recycler_isread"
+      android:layout_width="30dp"
+      android:layout_height="wrap_content"
+      android:layout_marginRight="21dp"
+      app:srcCompat="@mipmap/button_read_black"/>
+  </LinearLayout>
+
+  <TextView
+    android:id="@+id/nav_recycler_item_bottom_margin"
+    android:layout_width="match_parent"
+    android:layout_height="8dp"
+    android:text=""
+    android:visibility="gone"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<resources>
+  <string name="app_name">HowCare</string>
+  <string name="title_activity_main2">Main2Activity</string>
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+  <string name="nav_header_title">Android Studio</string>
+  <string name="nav_header_subtitle">android.studio@android.com</string>
+  <string name="nav_header_desc">Navigation header</string>
+  <string name="action_settings">Settings</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+  <string name="before_care_tab1">식사의\n중요성</string>
+  <string name="before_care_tab2">식사\n도구</string>
+  <string name="before_care_tab3">식사 시\n바른자세</string>
+  <string name="before_care_tab4">연하\n운동</string>
+
+  <string name="in_care_tab1">보조의\n실제</string>
+  <string name="in_care_tab2">기능\n유지간호</string>
+  <string name="in_care_tab3">구강\n간호</string>
+
+  <string name="strange_tab1">식사관련 이상행동</string>
+
+
+</resources>

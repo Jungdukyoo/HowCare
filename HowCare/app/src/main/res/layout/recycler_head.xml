@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:focusableInTouchMode="false"
+  android:screenReaderFocusable="false">
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/title_layout"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="8dp"
+
+    app:layout_constraintEnd_toStartOf="@+id/title_heart"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    >
+    <TextView
+      android:id="@+id/title_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingEnd="48dp"
+      android:focusableInTouchMode="false"
+      android:fontFamily="@font/notosanscjkkr_m"
+      android:gravity="left"
+      android:includeFontPadding="false"
+      android:selectAllOnFocus="false"
+      android:text="3. 식사 전 준비사항"
+      android:textColor="#ffa412"
+      android:textSize="23.3sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+      android:id="@+id/title_sound"
+      android:layout_width="48dp"
+      android:layout_height="48dp"
+      android:paddingTop="5dp"
+      android:paddingBottom="12dp"
+      android:paddingStart="10dp"
+      android:paddingEnd="10dp"
+      android:focusableInTouchMode="false"
+      android:minHeight="24dp"
+      android:minWidth="24dp"
+      app:layout_constraintEnd_toEndOf="@+id/title_text"
+      app:layout_constraintTop_toTopOf="@+id/title_text"
+      app:srcCompat="@mipmap/sound_icon"/>
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+  <ImageView
+    android:id="@+id/title_heart"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_marginEnd="12dp"
+    android:padding="10dp"
+    android:focusableInTouchMode="false"
+    android:scaleType="fitCenter"
+    android:visibility="visible"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@id/title_layout"
+    app:srcCompat="@mipmap/favorite_heart_empty"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

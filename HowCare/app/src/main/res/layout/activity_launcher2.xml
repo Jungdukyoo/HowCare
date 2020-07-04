@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/white">
+  <LinearLayout
+    android:id="@+id/logo_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+      android:id="@+id/imageView13"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingBottom="40dp"
+      app:srcCompat="@mipmap/ewha_logo" />
+    <ImageView
+      android:id="@+id/imageView14"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingBottom="42dp"
+      app:srcCompat="@mipmap/nrf_logo" />
+  </LinearLayout>
+  <TextView
+    android:id="@+id/textView3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="40dp"
+    android:layout_marginEnd="40dp"
+    android:text="이는 2019년도 정부(교육부)의 재원으로\n한국연구재단의 지원을 받아 수행된\n기초연구사업임(No. 2017R1D1A1B03035051)"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="10sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/logo_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

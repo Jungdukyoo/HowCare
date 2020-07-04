@@ -1,0 +1,34 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+  <style name="Theme.App.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorControlNormal">#FFFFFF</item>
+    <item name="colorControlActivated">#FFFFFF</item>
+    <item name="colorControlHighlight">#FFFFFF</item>
+  </style>
+
+  <style name="MyCheckBoxStyle" parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
+    <item name="buttonTint">@color/colorAccent</item>
+  </style>
+
+  <style name="MyRadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+    <item name="buttonTint">@color/brown_grey</item>
+  </style>
+
+</resources>

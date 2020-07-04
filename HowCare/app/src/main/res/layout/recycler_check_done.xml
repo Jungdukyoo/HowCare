@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+  <TextView
+    android:id="@+id/savebutton"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="30dp"
+    android:layout_marginStart="60dp"
+    android:layout_marginEnd="60dp"
+    android:padding="15dp"
+    android:background="@drawable/checklist_send"
+    android:gravity="center"
+    android:text="전송하기"
+    android:textSize="16sp"/>
+</LinearLayout>

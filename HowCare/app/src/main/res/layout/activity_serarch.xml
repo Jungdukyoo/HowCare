@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@mipmap/launcher_background">
+
+  <com.google.android.material.appbar.AppBarLayout
+    android:id="@+id/appBarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:theme="@style/AppBarOverlay"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:background="#ff7972"
+      android:gravity="center"
+      app:popupTheme="@style/PopupOverlay">
+      <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      </SearchView>
+    </androidx.appcompat.widget.Toolbar>
+  </com.google.android.material.appbar.AppBarLayout>
+
+  <LinearLayout
+    android:id="@+id/searchrecycler_beforesearch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:visibility="visible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/recyclerView">
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="36dp"
+      android:isScrollContainer="false"
+      android:overScrollMode="never"
+      app:srcCompat="@mipmap/search_backsearch"/>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/notosanscjkkr_m"
+      android:gravity="center_horizontal"
+      android:includeFontPadding="false"
+      android:textColor="#525252"
+      android:textSize="15.2sp"
+      android:text="HowCare에서 검색할\n단어를 입력하세요."/>
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/searchrecycler_noresult"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:visibility="gone"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/recyclerView">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="35sp"
+      android:textColor="#828181"
+      android:text="결과 없음"
+      android:fontFamily="@font/notosanscjkkr_m"
+      android:includeFontPadding="false"
+      />
+    <TextView
+      android:id="@+id/noresult_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="26dp"
+      android:fontFamily="@font/notosanscjkkr_m"
+      android:gravity="center_horizontal"
+      android:text="‘’ 에 대한 결과가 없습니다.
+새로운 검색을 시도하십시오."
+      android:textColor="#ff5b53"
+      android:textSize="15.2sp"/>
+  </LinearLayout>
+  <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/appBarLayout"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

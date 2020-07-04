@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+    android:id="@+id/action_search"
+    android:icon="@mipmap/icon_fontsize"
+    android:title="Search"
+    android:visible="true"
+    app:showAsAction="always"/>
+
+  <item
+    android:id="@+id/action_search2"
+    android:icon="@drawable/ic_launcher_foreground"
+    android:title="Search"
+    android:visible="true"
+    app:showAsAction="always"/>
+
+  <item
+    android:id="@+id/action_search3"
+    android:icon="@drawable/ic_launcher_foreground"
+    android:title="TEST"
+    android:visible="true"
+    app:showAsAction="never"/>
+
+</menu>

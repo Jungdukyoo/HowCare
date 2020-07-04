@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1079713329313",
+    "firebase_url": "https://howcare-3f91b.firebaseio.com",
+    "project_id": "howcare-3f91b",
+    "storage_bucket": "howcare-3f91b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079713329313:android:c78b89d4fdba3b75",
+        "android_client_info": {
+          "package_name": "com.ewha.howcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079713329313-qd24l2e7kf97d93aqg9ro5roosbbf1un.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGHVpirOxkLIuqpiVgrzETKUzQfMrA8A0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079713329313-qd24l2e7kf97d93aqg9ro5roosbbf1un.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
